@@ -26,7 +26,7 @@
 
 PS: If you're going to download the full project please use your on firebase API, the one in the project will NOT be mantained and the app may not work.
 
-# ▷ Installation:<br />
+# ▷ Installation:
 
 #### 1. [Setup Android Studio & Kotlin](https://developer.android.com/studio/install)
 
@@ -50,6 +50,4 @@ PS: If you're going to download the full project please use your on firebase API
 
 - You can also use my firebase if you wish!
 
-
-👉 If you like this project, give it a star ✨ and share 👨🏻‍💻 it to your friends 👈.
-**!!! By F.O.G_ntp !!!**
+# ▷ Author(s): F.O.G_ntp
