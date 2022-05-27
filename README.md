@@ -1,7 +1,7 @@
 <h1 align="center"><span><img src="https://img.shields.io/badge/InstaApp%20-%20Social%20Media%20Application-282C34?logo=Instagram&logoColor=E4405F" alt="HTML5 logo" title="HTML5" height="45" /></span>
 </h1>
-
-👉 If you like this repo, give it a star ✨ and share 👨🏻‍💻 it to your friends 👈.
+<h3 align="center">A social media app built with Kotlin (Android Studio) with multiple features</h3>
+<h3 align="center">👉 If you like this repo, give it a star ✨ and share 👨🏻‍💻 it to your friends 👈.</h3>
 
 # ▷ Screenshots:
 
