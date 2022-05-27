@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreenActivity"
+    android:id="@+id/splashscreen">
+
+    <ImageView
+        android:id="@+id/iconIv"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/instagramlogo" />
+
+    <TextView
+        android:id="@+id/fromTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iconIv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="320dp"
+        android:text="from"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/metaTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fromTv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+         />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fromTv"
+        android:layout_marginTop="5dp"
+        >
+        <ImageView
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+            android:src="@drawable/metalogo"
+            android:layout_marginLeft="135dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/arimo"
+            android:letterSpacing="0.09"
+            android:text="Meta"
+            android:textAllCaps="true"
+            android:textColor="#212121"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="165dp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

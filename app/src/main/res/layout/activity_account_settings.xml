@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountSettings">
+
+    <com.google.android.material.appbar.AppBarLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:id="@+id/app_bar_layout_accountSettings"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/accountSettings_toolbar"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_alignParentStart="true"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/close_button"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:background="@android:color/white"
+                android:scaleType="fitCenter"
+                android:src="@drawable/close" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit Profile"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:maxLines="1"
+                android:textColor="@android:color/black"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="6dp"
+                android:layout_centerInParent="true"
+                />
+
+            <ImageButton
+                android:id="@+id/save_edited_info"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_marginEnd="5dp"
+                android:background="@android:color/white"
+                android:scaleType="fitCenter"
+                android:src="@drawable/save_edited_info" />
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+</com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_accountSettings"
+        android:layout_below="@id/app_bar_layout_accountSettings"
+        >
+
+        <LinearLayout
+            android:id="@+id/accountSettings_top_bar_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            >
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/accountSettings_image_profile"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/profile"
+                    android:layout_gravity="center_horizontal"
+                    >
+                </de.hdodenhof.circleimageview.CircleImageView>
+
+            <TextView
+            android:id="@+id/accountSettings_change_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change Image"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:textColor="@color/colorPrimary" />
+
+            <EditText
+                android:id="@+id/accountSettings_fullname_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:inputType="text"
+                android:textSize="15sp"
+                android:hint="Full name"/>
+
+            <EditText
+                android:id="@+id/accountSettings_username_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:inputType="text"
+                android:textSize="15sp"
+                android:hint="UserName"/>
+
+            <EditText
+                android:id="@+id/accountSettings_bio_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:hint="Bio"
+                android:inputType="text"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </RelativeLayout>
+    <Button
+        android:id="@+id/accountSettings_logoutbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:text="Log Out"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_above="@id/accountSettings_deletebtn"
+        />
+    <Button
+        android:id="@+id/accountSettings_deletebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="5dp"
+        android:text="Delete Account"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>
