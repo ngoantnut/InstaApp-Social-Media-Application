@@ -7,6 +7,30 @@
 
 # ▷ Features:
 
+- Sign up using Firebase Authentication & save user data to Firebase Database.
+- Sign in using Firebase.
+- Create profile.
+- Account setting.
+- Search users.
+- Follow and Unfollow users on Search Fragment.
+- Navigate user from Search Page to searched user Profile.
+- Allow an Online user to Edit Account Info.
+- Upload image to Firebase Storage & Firebase Database and Retrieve & Display.
+- Upload new post picture.
+- User Timeline.
+- Likes and Total Number of Likes.
+- Add Comments on Pictures.
+- Retrieve and Display Comments & Total Number of Comments.
+- Display user Own Posts on User's Profile Page.
+- Navigate user to Post Details Fragment from Profile Fragment.
+- Display Total Number of Posts & Allow user Save Photos to Collection on Profile.
+- Display user Saved Images Collection on user Profile.
+- Display Followings List, Followers List and Picture Likes.
+- Add anf Display Notifications for Likes, Comments & Followings.
+- Upload Stories.
+- Implement Story Features - Next Story, Previous Sory, Display Viewed by People.
+- Manage UI for Already Seen Stories & for New Stories.
+
 # ▷ About Application:
 
 ▷ Create an android app like instagram
